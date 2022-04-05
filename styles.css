@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+
+html{
+	width: 100%;
+}
+body{
+	margin: 0;
+}
+
+/* Header - Menu de navigation */
+
+header  #logoSite{
+	max-height : 13vh;
+	margin-top: 1vh;
+	min-height: 5em;
+
+}
+
+header > #menuNavigationHeader{
+	height: 15vh;
+	background-color : #ffcdb4;
+	min-height: 7em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+header > #menuNavigationHeader > #connexionInscriptionBouttons{
+	display: flex;
+	flex-direction: column;
+}
+
+header > #menuNavigationHeader > a, header > #menuNavigationHeader > #connexionInscriptionBouttons > a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	transition: font-size 0.3s;
+	height: fit-content;
+}
+
+header > #menuNavigationHeader > a:hover, header > #menuNavigationHeader > #connexionInscriptionBouttons > a:hover{
+	font-size: 18px;
+}
+
+header > #menuNavigationHeader > a{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+header > #menuNavigationHeader > #connexionInscriptionBouttons{
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+}
+header > #menuNavigationHeader > #connexionInscriptionBouttons > a{
+	margin-bottom: auto;
+}
